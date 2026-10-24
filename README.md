@@ -49,10 +49,12 @@ Full design process documentation, empirical study materials and runnable protot
 - **Runnable Prototype (VR + PC version)**: [Link to cloud drive download]
 - **Integrated Interactive Demo Video (all 4 research projects)**: 
   [https://www.feicut.com/fv/FV28rlr7zx9y?cm=2&fc=5&p=0]
+
   This interactive video features core demos of all four research projects, with clickable section navigation. The Lion   Dance iVR segment is located in the top-left module of the video interface.
 
 ## Role & Contributions
 **Role**: Core Researcher & Lead Designer
+
 **Contributions**：
 - Framed the design research framework and core research questions for VR-enabled ICH embodied learning
 - Led the spatial translation of Lion Dance ICH and the design of immersive interaction scenarios
