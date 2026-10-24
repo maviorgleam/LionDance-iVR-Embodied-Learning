@@ -33,15 +33,15 @@ Supports both immersive VR head-mounted mode and PC-side preview mode. The PC ve
 - **Platform Support**: Immersive VR mode + PC standalone preview mode
 
 ## Repository Structure
-
-LionDance-iVR/
-├── Config/                  # Project configuration files (OpenXR settings, input mapping, rendering parameters)
-├── Source/                  # Core C++ source code of interaction logic
-└── Content/
-  ├── DongGungComplex/     # Core plum blossom pile scenario: blueprint logic & map files
-  ├── DongraeHyanggyo/     # Supplementary scenario map files
-  ├── Lion/                # Main training scenario map
-  └── FirstPerson/         # VR perspective interaction adaptation
+This repository contains core interaction logic, configuration files and scenario map files of the project:
+- **Blueprint** – Core interaction blueprints for the plum blossom pile training scenario
+- **Config** – Project configuration files, including OpenXR settings, input mapping and rendering parameters
+- **Lion** – Main training scenario assets
+- **LionDance** – Core C++ source code
+  - `Map` / `Maps` – Scenario map logic files
+  - `Private` – C++ implementation files (.cpp)
+  - `Public` – C++ header files (.h)
+- **main.umap** – Entry map file for the core training scenario
 
 ## Supplementary Materials
 Full design process documentation, empirical study materials and runnable prototype are provided separately:
@@ -53,8 +53,7 @@ Full design process documentation, empirical study materials and runnable protot
 
 ## Role & Contributions
 **Role**: Core Researcher & Lead Designer
-
-Responsibilities:
+**Contributions**：
 - Framed the design research framework and core research questions for VR-enabled ICH embodied learning
 - Led the spatial translation of Lion Dance ICH and the design of immersive interaction scenarios
 - Completed the design and implementation of OpenXR compatibility and low-latency physical interaction
