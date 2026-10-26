@@ -44,9 +44,7 @@ This repository contains core interaction logic, configuration files and scenari
 - **main.umap** – Entry map file for the core training scenario
 
 ## Supplementary Materials
-Full design process documentation, empirical study materials and runnable prototype are provided separately:
-- **Design Process & Experimental Study Compendium**: [Link to your PDF document]
-- **Runnable Prototype (VR + PC version)**: [Link to cloud drive download]
+
 - **Integrated Interactive Demo Video (all 4 research projects)**: 
   [https://www.feicut.com/fv/FV28rlr7zx9y?cm=2&fc=5&p=0]
 
